@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.parallax {
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image1 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0PcHxGRCp8xvrYOIgsHWg4gcNmsn1HosUOAWMZevWjA&s=10");
+}
+
+.image2 {
+  background-image: url("https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/49f202be98d656f93b7e039a3a614615b60149ae-1920x1080.jpg?accountingTag=VAL&auto=format&fit=fill&q=80&w=1920");
+}
+
+.block {
+  height: 400px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  font-family: Arial, sans-serif;
+}
